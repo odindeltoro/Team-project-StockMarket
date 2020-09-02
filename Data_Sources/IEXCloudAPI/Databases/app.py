@@ -1,0 +1,143 @@
+
+import pandas as pd
+from sqlalchemy import create_engine
+from flask import Flask, render_template, request
+
+app = Flask(__name__)
+
+
+@app.route("/")
+def main():
+    #  return "HolaMundoFlask"
+    return render_template("index.html")
+
+
+@app.route("/api/consultar/<buscarTipo>")
+def consultar(buscarTipo):
+    buscarTipo=buscarTipo.upper()
+    query=f"select * from quotes where symbol='{buscarTipo}'"
+    engine=create_engine("postgresql+psycopg2://postgres:jaramillo35@/StockPrices")
+    datos = pd.read_sql(query, engine)
+    engine.dispose()
+
+    return datos.to_json(orient='records')
+@app.route("/api/consulta/<financials>")
+def consulta(financials):
+    financials=financials.upper()
+    query=f"select * from financials where symbol='{financials}'"
+    engine=create_engine("postgresql+psycopg2://postgres:jaramillo35@/StockPrices")
+    datos = pd.read_sql(query, engine)
+    engine.dispose()
+
+    return datos.to_json(orient='records')
+@app.route("/api/consult/<Historical>")
+def consult(Historical):
+    Historical=Historical.upper()
+    query=f"select * from historical where symbol='{Historical}'"
+    engine=create_engine("postgresql+psycopg2://postgres:jaramillo35@/StockPrices")
+    datos = pd.read_sql(query, engine)
+    engine.dispose()
+
+    return datos.to_json(orient='records')
+@app.route("/api/graph/<industry>")
+def graph(industry):
+    if industry =='sector':
+        query=f"select sector, count(sector) from financials group by sector"
+        engine=create_engine("postgresql+psycopg2://postgres:jaramillo35@/StockPrices")
+        datos = pd.read_sql(query, engine)
+        engine.dispose()
+    else:
+        query=f"select industry, count(industry) from financials group by industry"
+        engine=create_engine("postgresql+psycopg2://postgres:jaramillo35@/StockPrices")
+        datos = pd.read_sql(query, engine)
+        engine.dispose() 
+
+    return datos.to_json()
+
+# @app.route("/search/<a>")
+# def consult(a):
+#     if a == "0":
+#         query2 = "select year, count(id) from alldata  group by year order by year asc;"
+   
+#     else:
+#         query2 = f"select year, count(id) from alldata where state='{a}'  group by year order by year asc;"
+#     engine2=create_engine("postgresql+psycopg2://postgres:jaramillo35@/Prueba")
+#     datos2 = pd.read_sql(query2, engine2)
+#     # datos=datos["count"]
+#     engine2.dispose()
+
+#     return datos2.to_json()
+# @app.route("/search2/<b>")   
+# def consulta(b):
+#     if b == "0":
+#         query3 = "select * from alldata ;"
+#     elif b == "1":
+#         year=2015
+#         query3 = f"select * from alldata where year={year} ;"
+#     elif b == "2":
+#         year=2016
+#         query3 = f"select * from alldata where year={year} ;"
+#     elif b == "3":
+#         year=2017
+#         query3 = f"select * from alldata where year={year} ;"
+#     elif b == "4":
+#         year=2018
+#         query3 = f"select * from alldata where year={year} ;"
+#     elif b == "5":
+#         year=2019
+#         query3 = f"select * from alldata where year={year} ;"
+#     else:
+#         year=2020
+#         query3 = f"select * from alldata where year={year} group by state order by state asc;"
+#     engine3=create_engine("postgresql+psycopg2://postgres:jaramillo35@/Prueba")
+#     datos3 = pd.read_sql(query3, engine3)
+    
+#     engine3.dispose()
+
+#     return datos3.to_json(orient='records')
+# @app.route("/search3/<c>")
+# def consu(c):
+#     if c == "0":
+#         query4 = "select race, count(id) from alldata  group by race;"
+   
+#     else:
+#         query4 = f"select race, count(id) from alldata where state='{c}'  group by race ;"
+#     engine4=create_engine("postgresql+psycopg2://postgres:jaramillo35@/Prueba")
+#     datos4 = pd.read_sql(query4, engine4)
+    
+#     engine4.dispose()
+
+#     return datos4.to_json()
+
+# @app.route("/search4/")
+# def cons():
+#     query5 = "select * from bernardo"
+#     engine5=create_engine("postgresql+psycopg2://postgres:jaramillo35@/Prueba")
+#     datos5 = pd.read_sql(query5, engine5)
+    
+#     engine5.dispose()
+
+#     return datos5.to_csv()
+
+# @app.route("/search5/")
+# def con():
+#     query5 = "select * from bernardo1"
+#     engine5=create_engine("postgresql+psycopg2://postgres:jaramillo35@/Prueba")
+#     datos5 = pd.read_sql(query5, engine5)
+    
+#     engine5.dispose()
+
+#     return datos5.to_csv()
+
+# @app.route("/search6/")
+# def co():
+#     query6 = "select * from bernardo2"
+#     engine6=create_engine("postgresql+psycopg2://postgres:jaramillo35@/Prueba")
+#     datos6 = pd.read_sql(query6, engine6)
+    
+#     engine6.dispose()
+
+#     return datos6.to_csv()
+
+if __name__ == "__main__":
+    app.run()

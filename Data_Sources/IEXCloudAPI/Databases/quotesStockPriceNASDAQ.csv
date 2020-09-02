@@ -1,101 +1,101 @@
 ,Symbol,OpenPrice,ClosePrice,HighPrice,LowPrice,PreviousDayClosePrice,ChangePercentagefromPreviousDay,LatestTime,Volume,30DayAverageVolume,Adjusted52WeekHigh,Adjusted52WeekLow,Name,Industry
-0,AAPL,528.0,520.7,510.89,520.72,522.99,-0.00164,"August 28, 2020",47771620,45035541,519.29,210.54,Apple Inc,"Computers, Office Equipment"
-1,AMZN,3538.0,3520.7,3470.66,3526.5,3443.0,0.00055,"August 28, 2020",2908035,4627497,3616.0,1683.14,Amazon.com Inc,Internet Services and Retailing
-2,MSFT,232.31,235.17,233.799,236.73,231.13,0.01044,"August 28, 2020",27113759,35380438,233.55,134.75,Microsoft Corp,Computer Software
-3,FB,296.94,298.4,310.62,295.83,306.43,0.0015,"August 28, 2020",17517839,26137442,309.17,139.8,Facebook Inc,Internet Services and Retailing
-4,GOOGL,1680.1,1703.77,1648.23,1650.219,1657.54,0.0068,"August 28, 2020",1162631,1646208,1699.78,1054.05,Alphabet Inc,Internet Services and Retailing
-5,GOOG,1704.68,1686.95,1650.43,1668.75,1694.02,0.00635,"August 28, 2020",2015535,1732446,1731.16,1058.24,Google,Information Technology Services
-6,TSLA,2303.72,2300.8,2410.36,2276.68,2325.2,-0.0118,"August 28, 2020",20664131,14875140,2353.62,221.0,Tesla Inc,Motor Vehicles & Parts
-7,NVDA,518.57,548.42,533.62,522.9,522.83,0.04319,"August 28, 2020",13545440,10710497,542.71,163.87,NVIDIA Corp,Semiconductors and Other Electronic Components
-8,ADBE,528.26,521.65,543.523,532.44,515.66,0.0124,"August 28, 2020",1993210,2446233,536.8,264.87,Adobe Inc,Information Technology Services
-9,NFLX,558.0,547.98,561.0,535.0,526.59,-0.00471,"August 28, 2020",4585492,6400863,580.21,252.6,Netflix Inc,Entertainment
-10,PYPL,212.18,211.63,205.887,212.05,209.22,0.00072,"August 28, 2020",4810337,7375524,208.0,85.69,Paypal Holdings Ing,Financial Data Services
-11,INTC,51.79,52.35,52.8,51.43,51.8,0.02156,"August 28, 2020",36241203,41399284,72.59,45.42,Intel Corp,Semiconductors and Other Electronic Components
-12,CMCSA,44.84,44.74,46.03,45.9,45.43,0.00045,"August 28, 2020",11384420,15795651,49.96,32.03,Comcast Corp,Telecommunications
-13,PEP,143.18,142.14,146.62,142.85,139.6,0.01138,"August 28, 2020",3385547,3519070,147.4,101.92,PepsiCo Inc,Food Consumer Products
-14,CSCO,43.11,42.7,43.7,44.0,43.24,-0.0022,"August 28, 2020",17116281,22179829,51.5,32.6,Cisco Systems Inc,Network and Other Communications Equipment
-15,COST,363.56,365.16,354.05,357.5,357.01,0.0059,"August 28, 2020",1553201,1880118,356.02,271.87,Costco Wholesale Corp,General Merchandisers
-16,AMGN,261.4,253.88,256.06,250.74,259.4,0.00126,"August 28, 2020",13187252,2557508,267.36,184.58,Amgen Inc,Pharmaceuticals
-17,TMUS,117.6,119.71,116.96,119.52,119.67,0.00905,"August 28, 2020",2801611,4080059,123.0,64.8,T-Mobile US Inc,Telecommunications
-18,AVGO,347.0,355.44,346.44,342.2,345.89,0.01715,"August 28, 2020",1465923,1610766,352.19,163.18,Broadcom Inc,Semiconductors and Other Electronic Components
-19,TXN,142.71,145.47,149.35,143.8,142.05,0.01447,"August 28, 2020",2969015,4447373,144.29,96.48,Texas Instruments Inc,Semiconductors and Other Electronic Components
-20,QCOM,119.21,119.5,121.82,117.64,121.78,0.01907,"August 28, 2020",6486685,11027035,123.71,61.0,QUALCOMM Inc,Semiconductors and Other Electronic Components
-21,CHTR,616.16,623.1,627.25,629.88,618.98,0.0023,"August 28, 2020",657430,831799,626.52,352.42,Charter Communications Inc,Telecommunications
-22,AMD,87.94,86.5,90.1,87.62,86.5,0.02155,"August 28, 2020",40878347,74607629,88.94,28.8,Advanced Micro Devices Inc,Semiconductors and Other Electronic Components
-23,SBUX,86.73,89.0,85.66,84.36,83.81,0.01971,"August 28, 2020",9598174,8421320,101.51,50.19,Starbucks Corp,Food Services
-24,INTU,361.67,360.25,349.74,356.21,361.0,0.00323,"August 28, 2020",1206159,1138131,369.0,189.75,Intuit Inc,Computer Software
-25,MDLZ,60.0,58.48,60.482,59.2,59.26,0.0032,"August 28, 2020",4033348,5636592,60.75,42.12,Mondelez International Inc,Food Consumer Products
-26,GILD,66.33,67.97,65.851,67.84,67.05,-0.00446,"August 28, 2020",6918022,8919452,89.14,60.97,Gilead Sciences Inc,Pharmaceuticals
-27,ISRG,724.69,739.21,742.49,722.47,717.27,0.02533,"August 28, 2020",676564,572929,741.93,368.0,Intuitive Surgical Inc,Medical Products and Equipment
-28,BKNG,1906.03,2019.67,2034.201,1952.49,1939.9,0.02758,"August 28, 2020",336439,313953,2169.0,1161.43,Booking Holdings Inc,Internet Services and Retailing
-29,JD,80.83,81.79,81.41,81.04,81.8,0.00856,"August 28, 2020",8006538,13184818,84.03,28.42,JD.com Inc,Internet Services and Retailing
-30,VRTX,278.98,274.99,278.71,270.1,285.94,-0.01601,"August 28, 2020",842694,1284354,312.95,168.35,Vertex Pharmaceuticals Inc,Pharmaceuticals
-31,FISV,103.37,104.66,100.76,99.65,100.0,0.01174,"August 28, 2020",3097736,4466017,131.13,74.8,Fiserv Inc,Financial Data Services
-32,ATVI,86.04,87.28,85.26,84.62,86.9,-0.00851,"August 28, 2020",4802568,6734128,88.78,50.99,Activision Blizzard Inc,Entertainment
-33,REGN,622.0,626.19,624.058,612.2,644.46,-0.0205,"August 28, 2020",606122,633781,681.97,276.52,Regeneron Pharmaceuticals Inc,Pharmaceuticals
-34,MELI,1243.49,1209.0,1226.1,1226.316,1230.7,-0.01911,"August 28, 2020",604707,518273,1316.0,439.76,MercadoLibre Inc,Information Technology Services
-35,ADP,142.0,147.73,146.03,139.45,141.5,0.00239,"August 28, 2020",1091167,2324113,190.67,106.93,Automatic Data Processing Inc,Financial Data Services
-36,AMAT,63.92,64.59,64.2,63.12,63.79,0.01756,"August 28, 2020",5390315,7219086,72.2,36.92,Applied Materials Inc,Semiconductors and Other Electronic Components
-37,CSX,76.7,77.23,78.35,77.09,78.9,0.01209,"August 28, 2020",2729363,3195472,81.34,48.75,CSX Corp,Railroads
-38,ADSK,246.13,255.88,254.7,255.03,252.48,0.01827,"August 28, 2020",1026583,1116442,255.71,127.75,Autodesk Inc,Computer Software
-39,ILMN,352.3,369.0,359.815,365.57,360.97,0.00851,"August 28, 2020",523202,868404,404.3,199.06,Illumina Inc,"Scientific,Photographic and Control Equipment"
-40,LRCX,354.07,367.42,366.82,349.37,355.08,0.0276,"August 28, 2020",1667820,1564566,395.3,188.44,Lam Research Corp,Semiconductors and Other Electronic Components
-41,MU,46.1,46.2,47.799,44.499,45.15,0.02439,"August 28, 2020",13694949,19096845,63.22,31.27,Micron Technology Inc,Semiconductors and Other Electronic Components
-42,ZM,304.89,311.35,316.8,306.59,296.58,0.01568,"August 28, 2020",5500447,5527882,306.89,61.49,Zoom Video Communications Inc,IT Software & Services
-43,LULU,384.0,381.95,390.1,382.56,386.8,0.00723,"August 28, 2020",1305468,1414711,396.11,132.41,Lululemon Athletica Inc,Specialty Retailers
-44,BIIB,289.92,287.01,294.43,289.08,282.77,0.00794,"August 28, 2020",850357,1215592,392.35,219.44,Biogen Inc,Pharmaceuticals
-45,ADI,122.74,119.86,120.31,122.35,122.28,0.00467,"August 28, 2020",2174866,3569977,130.34,80.86,Analog Devices Inc,Semiconductors and Other Electronic Components
-46,MNST,85.52,86.21,87.83,87.11,86.61,0.0147,"August 28, 2020",1731462,1909167,86.62,51.42,Monster Beverage Corp,Beverages
-47,KHC,36.39,35.67,36.65,34.66,35.6,0.0035,"August 28, 2020",4397855,5557152,36.7,20.02,Kraft Heinz Co/The,Food Consumer Products
-48,EA,143.28,143.49,143.32,142.819,145.26,-0.00645,"August 28, 2020",1582574,1847746,153.5,86.35,Electronic Arts Inc,Entertainment
-49,EBAY,56.22,55.89,58.9,54.45,56.4,-0.03651,"August 28, 2020",13029852,8126048,61.84,26.53,eBay Inc,Internet Services and Retailing
-50,DXCM,431.21,436.33,449.31,430.2,440.58,-0.02144,"August 28, 2020",522495,753903,463.25,139.88,DexCom Inc,Medical Products and Equipment
-51,DOCU,226.49,215.95,224.122,219.9,224.06,0.00227,"August 28, 2020",3610690,3428497,234.32,47.75,DocuSign Inc,IT Software & Services
-52,NTES,527.47,510.83,523.64,521.63,530.16,-0.01564,"August 28, 2020",600315,516702,522.77,261.56,NetEase Inc,Entertainment
-53,WDAY,240.0,247.29,254.7,243.07,221.19,0.12916,"August 28, 2020",11812649,1873839,253.82,108.6,Workday Inc Class A,Computer Software
-54,CTSH,69.61,70.53,70.386,68.63,67.99,0.00415,"August 28, 2020",1537482,2602433,71.62,41.59,Cognizant Technology Solutions Corp,Information Technology Services
-55,EXC,38.49,38.54,38.39,36.689,38.55,0.00417,"August 28, 2020",4076600,5885793,52.41,29.82,Exelon Corp,Utilities
-56,XEL,71.52,71.47,69.83,68.406,72.02,0.0003,"August 28, 2020",2106287,2337187,75.0,47.6,Xcel Energy Inc,Utilities
-57,NXPI,129.2,129.63,131.96,126.11,127.93,0.00977,"August 28, 2020",1783289,2199647,145.62,60.64,NXP Semiconductors NV,Semiconductors and Other Electronic Components
-58,BIDU,133.14,134.0,130.86,127.29,129.57,0.0139,"August 28, 2020",1924854,3557019,153.17,82.0,Baidu Inc,Internet Services and Retailing
-59,SPLK,221.54,226.45,233.43,227.6,223.1,0.02355,"August 28, 2020",2025792,1551820,230.13,95.34,Splunk Inc,Computer Software
-60,ORLY,466.45,466.6,468.19,466.19,466.36,0.0008,"August 28, 2020",389617,562141,511.21,256.52,O'Reilly Automotive Inc,Specialty Retailers
-61,WBA,40.33,39.8,40.5,39.77,41.13,-0.01545,"August 28, 2020",6296410,5836723,66.7,36.97,Walgreens Boots Alliance Inc,Food & Drug Stores
-62,CTAS,339.6,349.53,350.0,344.3,330.92,0.01579,"August 28, 2020",352952,471722,345.5,161.37,Cintas Corp,Diversified Outsourcing Services
-63,SNPS,217.47,228.03,223.82,222.19,217.79,0.01085,"August 28, 2020",656485,782550,223.35,108.8,Synopsys Inc,Computer Software
-64,KLAC,207.92,213.17,214.37,211.36,205.9,0.02108,"August 28, 2020",849328,1189779,219.96,111.26,KLA Corp,Semiconductors and Other Electronic Components
-65,IDXX,392.25,403.18,401.32,397.011,404.3,-0.00618,"August 28, 2020",362186,447637,409.15,170.06,IDEXX Laboratories Inc,Medical Products and Equipment
-66,ROST,92.8,94.34,97.01,92.626,93.87,0.03287,"August 28, 2020",1848760,2622220,124.17,59.0,Ross Stores Inc,Specialty Retailers
-67,MAR,106.61,107.71,111.19,106.75,104.56,0.04521,"August 28, 2020",3680435,2960004,156.13,47.57,Marriott International Inc/MD,"Hotels, Casinos, Resorts"
-68,CDNS,115.8,110.98,111.84,110.73,113.59,0.01431,"August 28, 2020",1049826,1533510,114.52,51.79,Cadence Design Systems Inc,Computer Software
-69,VRSK,195.43,191.52,195.32,192.1,191.41,0.00404,"August 28, 2020",968090,656144,193.0,122.06,Verisk Analytics Inc,Financial Data Services
-70,PCAR,86.36,90.52,87.8,86.27,89.86,0.0019,"August 28, 2020",1154509,1711887,91.9,49.17,PACCAR Inc,Construction and Farm Machinery
-71,ASML,376.93,397.75,385.33,391.9,388.35,0.00891,"August 28, 2020",513349,707581,415.42,199.76,ASML Holding NV,Semiconductors and Other Electronic Components
-72,ANSS,347.86,351.21,337.75,340.62,337.02,0.01331,"August 28, 2020",636896,368924,353.38,203.56,ANSYS Inc,IT Software & Services
-73,FAST,49.5,50.23,49.46,48.82,50.17,0.01019,"August 28, 2020",2383580,3115949,50.42,27.25,Fastenal Co,Wholesalers
-74,MRNA,70.85,70.77,71.65,68.54,69.48,-0.00797,"August 28, 2020",6533714,19885333,96.06,14.03,Moderna Inc,Drugs & Biotechnology
-75,PAYX,80.48,81.08,79.79,79.89,76.92,0.01034,"August 28, 2020",1158150,1543776,91.29,49.28,Paychex Inc,Diversified Outsourcing Services
-76,SGEN,160.98,157.68,159.436,157.42,160.01,-0.00299,"August 28, 2020",591695,875373,195.55,68.6,Seattle Genetics Inc,Drugs & Biotechnology
-77,MCHP,112.5,115.74,111.72,110.81,108.13,0.03036,"August 28, 2020",1704028,2558454,118.71,53.29,Microchip Technology Inc,Semiconductors and Other Electronic Components
-78,SIRI,5.92,6.0,6.17,5.9,6.0,0.01063,"August 28, 2020",18352177,21633877,7.7,4.24,Sirius XM Holdings Inc,Entertainment
-79,XLNX,104.71,108.16,106.94,102.69,107.69,0.01204,"August 28, 2020",1944774,2291295,114.84,70.42,Xilinx Inc,Semiconductors and Other Electronic Components
-80,DLTR,101.55,97.72,98.3,97.86,101.14,-0.02065,"August 28, 2020",4903259,2077445,120.1,62.7,Dollar Tree Inc,Specialty Retailers
-81,PDD,88.77,91.9,93.67,91.43,89.42,0.00436,"August 28, 2020",6807284,9083541,102.22,30.57,Pinduoduo Inc,Information Technology Services
-82,VRSN,215.58,217.4,216.025,213.53,215.45,0.0014,"August 28, 2020",405105,677317,221.4,155.98,VeriSign Inc,IT Software & Services
-83,CPRT,103.36,106.58,105.88,102.8,106.5,0.01,"August 28, 2020",870650,1274863,107.71,57.8,Copart Inc,"Automotive Retailing, Services"
-84,SWKS,143.46,146.24,144.37,142.94,145.1,0.0256,"August 28, 2020",1062841,1800569,153.72,68.1,Skyworks Solutions Inc,Semiconductors and Other Electronic Components
-85,ALGN,320.0,309.33,307.12,307.3,312.56,-0.01675,"August 28, 2020",421901,675119,328.68,128.61,Align Technology Inc,Medical Products and Equipment
-86,ALXN,110.11,111.77,108.61,107.32,108.67,0.00851,"August 28, 2020",1101896,1550281,126.1,75.7,Alexion Pharmaceuticals Inc,Pharmaceuticals
-87,CERN,75.52,75.3,75.08,72.41,74.64,-0.0061,"August 28, 2020",985541,1585078,82.1,53.96,Cerner Corp,Health Care: Pharmacy and Other Services
-88,INCY,96.42,98.1,96.28,96.21,97.7,-0.00428,"August 28, 2020",685274,1094882,114.2,65.06,Incyte Corp,Drugs & Biotechnology
-89,TTWO,177.64,177.94,180.57,173.64,178.44,-0.00951,"August 28, 2020",870393,1327167,182.82,105.0,Take-Two Interactive Software Inc,Entertainment
-90,MXIM,70.3,72.28,71.35,72.11,72.37,0.00264,"August 28, 2020",2148731,3620935,76.84,42.32,Maxim Integrated Products Inc,Semiconductors and Other Electronic Components
-91,CHKP,129.0,128.47,129.82,131.1,129.61,-0.006,"August 28, 2020",592234,1253865,135.74,83.71,Check Point Software Technologies Ltd,IT Software & Services
-92,CTXS,144.02,145.56,150.71,148.29,145.04,0.01266,"August 28, 2020",980998,1659165,174.5,96.1,Citrix Systems Inc,Computer Software
-93,CDW,117.43,121.04,119.96,116.15,114.98,0.00456,"August 28, 2020",604973,715601,151.92,75.45,CDW Corp/DE,Information Technology Services
-94,TCOM,30.1,31.92,31.95,30.0,29.47,0.05718,"August 28, 2020",6640588,4921017,40.31,21.0,Trip.com Group Ltd,Travel Services
-95,BMRN,78.87,76.95,76.84,76.906,79.01,0.01279,"August 28, 2020",1865093,2902649,133.04,64.42,BioMarin Pharmaceutical Inc,Drugs & Biotechnology
-96,EXPE,99.59,105.61,105.54,100.6,100.76,0.03376,"August 28, 2020",3165378,2866535,145.83,41.97,Expedia Group Inc,Internet Services and Retailing
-97,ULTA,265.35,245.61,268.6,236.62,224.72,0.0584,"August 28, 2020",6678325,1215074,351.0,126.29,Ulta Beauty Inc,Specialty Retailers
-98,WDC,35.62,38.59,39.75,36.86,36.03,0.07564,"August 28, 2020",12123618,6935143,75.0,28.5,Western Digital Corp,"Computers, Office Equipment"
-99,LBTYK,23.2,23.96,23.186,23.83,23.36,0.00991,"August 28, 2020",1859677,2666859,27.87,14.88,Liberty Global PLC,Insurance
+0,AAPL,132.27,130.44,133.0,127.0,127.58,0.03491,"August 31, 2020",234711876,185309837,133.0,52.76,Apple Inc,"Computers, Office Equipment"
+1,AMZN,3468.14,3570.35,3625.0,3540.0,3528.5,0.01511,"August 31, 2020",4440668,4370559,3583.0,1627.15,Amazon.com Inc,Internet Services and Retailing
+2,MSFT,227.7,236.51,238.1,234.01,237.9,-0.01501,"August 31, 2020",30077139,35034492,238.08,138.19,Microsoft Corp,Computer Software
+3,FB,298.09,296.4,301.14,303.23,303.91,-0.00164,"August 31, 2020",18050907,26432998,306.14,140.6,Facebook Inc,Internet Services and Retailing
+4,GOOGL,1715.79,1636.78,1695.3,1678.07,1664.01,-0.00611,"August 31, 2020",1324384,1581459,1696.34,1024.58,Alphabet Inc,Internet Services and Retailing
+5,GOOG,1652.34,1639.54,1701.0,1696.49,1699.17,-0.00639,"August 31, 2020",1867007,1750510,1734.77,1028.69,Google,Information Technology Services
+6,TSLA,450.89,499.19,513.83,454.63,444.1,0.12801,"August 31, 2020",121888923,75516397,503.89,44.0,Tesla Inc,Motor Vehicles & Parts
+7,NVDA,539.94,548.69,569.0,534.87,527.02,0.01792,"August 31, 2020",12886909,10653607,557.0,164.31,NVIDIA Corp,Semiconductors and Other Electronic Components
+8,ADBE,534.5,519.26,527.15,531.53,541.8,-0.00597,"August 31, 2020",2389474,2370054,551.0,259.39,Adobe Inc,Information Technology Services
+9,NFLX,547.28,542.57,554.64,532.14,524.45,0.01097,"August 31, 2020",5015567,6029032,594.31,262.71,Netflix Inc,Entertainment
+10,PYPL,209.0,205.28,209.107,205.8,210.65,-0.00167,"August 31, 2020",5670598,7508247,207.0,82.81,Paypal Holdings Ing,Financial Data Services
+11,INTC,53.0,52.12,53.0,52.25,52.41,0.01059,"August 31, 2020",48254893,41638297,70.96,44.6,Intel Corp,Semiconductors and Other Electronic Components
+12,CMCSA,45.68,46.43,46.7,45.96,45.12,0.00584,"August 31, 2020",25016320,15691968,49.2,31.82,Comcast Corp,Telecommunications
+13,PEP,139.59,141.57,141.04,145.0,142.4,0.00087,"August 31, 2020",3927657,3482065,147.4,102.24,PepsiCo Inc,Food Consumer Products
+14,CSCO,43.51,44.28,43.21,42.5,44.2,0.00048,"August 31, 2020",22084002,22002234,50.5,32.8,Cisco Systems Inc,Network and Other Communications Equipment
+15,COST,353.99,356.03,363.39,344.64,359.14,-0.00204,"August 31, 2020",1597487,1898085,353.03,275.72,Costco Wholesale Corp,General Merchandisers
+16,AMGN,264.68,264.01,263.26,253.1,263.61,0.00079,"August 31, 2020",4076540,2720584,277.12,178.23,Amgen Inc,Pharmaceuticals
+17,TMUS,117.6,121.85,117.12,117.99,118.97,0.00369,"August 31, 2020",4086355,3992027,122.0,66.0,T-Mobile US Inc,Telecommunications
+18,AVGO,358.0,358.52,358.9,344.91,352.37,0.00701,"August 31, 2020",2264419,1609726,361.95,160.95,Broadcom Inc,Semiconductors and Other Electronic Components
+19,TXN,149.42,142.7,145.4,148.01,148.53,-0.00939,"August 31, 2020",4440678,4302718,149.87,93.1,Texas Instruments Inc,Semiconductors and Other Electronic Components
+20,QCOM,123.11,122.6,126.3,123.27,123.8,0.00762,"August 31, 2020",10098395,11120805,123.07,59.0,QUALCOMM Inc,Semiconductors and Other Electronic Components
+21,CHTR,643.25,634.22,650.137,638.07,619.32,-5e-05,"August 31, 2020",823010,832325,627.21,348.78,Charter Communications Inc,Telecommunications
+22,AMD,85.7,92.22,95.51,88.92,89.43,0.0642,"August 31, 2020",93132107,75781687,95.69,28.37,Advanced Micro Devices Inc,Semiconductors and Other Electronic Components
+23,SBUX,88.73,85.84,86.49,86.241,86.0,-0.00637,"August 31, 2020",6570508,7965713,99.71,50.15,Starbucks Corp,Food Services
+24,INTU,353.22,351.54,354.491,356.9,348.52,-0.00212,"August 31, 2020",1095147,1158249,375.0,192.42,Intuit Inc,Computer Software
+25,MDLZ,60.8,58.53,60.5,60.04,58.75,0.00197,"August 31, 2020",6456952,5765352,61.09,42.81,Mondelez International Inc,Food Consumer Products
+26,GILD,67.3,69.42,68.18,65.63,67.75,0.02374,"August 31, 2020",9146445,9287534,88.27,62.21,Gilead Sciences Inc,Pharmaceuticals
+27,ISRG,750.25,761.49,743.92,729.2,741.79,0.00542,"August 31, 2020",629687,549759,746.52,370.9,Intuitive Surgical Inc,Medical Products and Equipment
+28,BKNG,1928.7,1923.23,2012.4,1947.15,2028.5,-0.01815,"August 31, 2020",324640,313427,2107.0,1154.45,Booking Holdings Inc,Internet Services and Retailing
+29,JD,80.87,79.35,83.32,82.07,80.94,-0.01656,"August 31, 2020",13491099,12728464,82.41,27.49,JD.com Inc,Internet Services and Retailing
+30,VRTX,273.94,290.45,285.18,270.0,276.53,0.03527,"August 31, 2020",1349914,1247187,320.22,171.5,Vertex Pharmaceuticals Inc,Pharmaceuticals
+31,FISV,104.81,103.14,105.55,99.11,101.21,-0.00585,"August 31, 2020",5023498,4525486,129.84,75.3,Fiserv Inc,Financial Data Services
+32,ATVI,85.95,86.92,87.68,85.31,85.48,0.00373,"August 31, 2020",6419861,6496231,92.09,50.3,Activision Blizzard Inc,Entertainment
+33,REGN,624.66,644.2,629.86,626.43,620.9,0.02928,"August 31, 2020",919474,662281,693.45,274.37,Regeneron Pharmaceuticals Inc,Pharmaceuticals
+34,MELI,1192.92,1188.01,1198.915,1168.62,1195.3,-0.00893,"August 31, 2020",738167,527487,1321.0,438.69,MercadoLibre Inc,Information Technology Services
+35,ADP,146.38,141.02,143.094,141.47,147.89,-0.01655,"August 31, 2020",2927210,2384202,190.02,104.28,Automatic Data Processing Inc,Financial Data Services
+36,AMAT,63.0,64.4,64.39,61.594,66.04,-0.02339,"August 31, 2020",6582056,7267761,72.9,37.43,Applied Materials Inc,Semiconductors and Other Electronic Components
+37,CSX,78.41,77.02,80.23,79.07,77.71,-0.00824,"August 31, 2020",3339289,3186724,81.53,47.5,CSX Corp,Railroads
+38,ADSK,257.09,245.9,257.5,244.05,247.66,-0.00692,"August 31, 2020",1249461,1131968,258.5,130.83,Autodesk Inc,Computer Software
+39,ILMN,364.34,365.37,360.714,364.4,364.0,0.0091,"August 31, 2020",818656,886509,417.0,199.17,Illumina Inc,"Scientific,Photographic and Control Equipment"
+40,LRCX,359.04,350.24,352.713,347.54,357.32,-0.04245,"August 31, 2020",2645388,1574059,402.3,187.57,Lam Research Corp,Semiconductors and Other Electronic Components
+41,MU,45.56,47.1,46.93,46.04,46.19,-0.00405,"August 31, 2020",13585634,19237628,61.58,31.91,Micron Technology Inc,Semiconductors and Other Electronic Components
+42,ZM,315.0,330.6,331.0,310.81,299.68,0.09047,"August 31, 2020",24222795,6040108,339.9,61.99,Zoom Video Communications Inc,IT Software & Services
+43,LULU,384.3,392.01,393.87,378.0,383.18,-0.0049,"August 31, 2020",1703903,1398255,401.97,130.05,Lululemon Athletica Inc,Specialty Retailers
+44,BIIB,283.62,291.86,300.72,293.47,292.3,0.02212,"August 31, 2020",1652086,1218334,384.75,221.86,Biogen Inc,Pharmaceuticals
+45,ADI,123.15,118.9,124.05,119.0,124.16,-0.02353,"August 31, 2020",2980503,3508542,131.16,82.36,Analog Devices Inc,Semiconductors and Other Electronic Components
+46,MNST,84.88,85.86,86.62,85.98,86.06,-0.00839,"August 31, 2020",2898071,1897673,85.92,51.22,Monster Beverage Corp,Beverages
+47,KHC,35.79,35.79,36.46,35.95,35.06,0.00465,"August 31, 2020",4608548,5430255,36.52,20.32,Kraft Heinz Co/The,Food Consumer Products
+48,EA,144.51,141.63,144.43,140.24,146.84,-0.01,"August 31, 2020",2782263,1884589,151.62,86.86,Electronic Arts Inc,Entertainment
+49,EBAY,56.0,56.26,55.16,55.98,55.69705140918545,0.01291,"August 31, 2020",13548214,8525176,62.75,27.12,eBay Inc,Internet Services and Retailing
+50,DXCM,422.18,445.95,444.25,426.9,434.32,0.01578,"August 31, 2020",687359,730042,469.76,139.66,DexCom Inc,Medical Products and Equipment
+51,DOCU,226.33,232.0,225.39,218.135,218.2,0.03622,"August 31, 2020",4045009,3372643,234.69,46.74,DocuSign Inc,IT Software & Services
+52,NTES,505.22,493.22,501.33,486.71,521.18,-0.03391,"August 31, 2020",773229,525454,530.96,258.9,NetEase Inc,Entertainment
+53,WDAY,252.84,241.24,248.8,238.94,252.96,-0.0172,"August 31, 2020",3659581,1952098,258.13,110.89,Workday Inc Class A,Computer Software
+54,CTSH,68.45,68.15,68.25,69.06,69.11,-0.01278,"August 31, 2020",2699754,2690963,71.51,40.18,Cognizant Technology Solutions Corp,Information Technology Services
+55,EXC,37.66,37.27,37.46,38.55,37.77,-0.00368,"August 31, 2020",4028939,5888904,51.25,30.55,Exelon Corp,Utilities
+56,XEL,69.88,71.34,72.58,68.73,69.06,0.01203,"August 31, 2020",2151739,2257599,76.0,47.36,Xcel Energy Inc,Utilities
+57,NXPI,128.62,130.0,132.24,128.16,132.27,-0.01156,"August 31, 2020",2302734,2208751,145.76,60.92,NXP Semiconductors NV,Semiconductors and Other Electronic Components
+58,BIDU,129.14,125.8,129.7,129.2,135.0,-0.03554,"August 31, 2020",4198986,3619905,150.54,86.0,Baidu Inc,Internet Services and Retailing
+59,SPLK,222.0,222.5,224.93,223.32,222.23,-0.00516,"August 31, 2020",2103700,1640826,231.93,97.56,Splunk Inc,Computer Software
+60,ORLY,478.09,471.63,481.22,480.87,485.55,0.00587,"August 31, 2020",521958,554011,511.88,254.74,O'Reilly Automotive Inc,Specialty Retailers
+61,WBA,38.75,38.69,39.187,38.0,39.55,-0.01964,"August 31, 2020",8321251,5986559,66.8,38.47,Walgreens Boots Alliance Inc,Food & Drug Stores
+62,CTAS,341.36,343.71,343.22,336.71,348.09,-0.00193,"August 31, 2020",367925,453266,351.128,156.28,Cintas Corp,Diversified Outsourcing Services
+63,SNPS,223.65,223.0,225.61,221.616,220.1,0.00863,"August 31, 2020",1038924,811935,227.63,110.0,Synopsys Inc,Computer Software
+64,KLAC,217.33,214.32,218.07,213.68,215.14,-0.01708,"August 31, 2020",968376,1181043,227.08,112.58,KLA Corp,Semiconductors and Other Electronic Components
+65,IDXX,394.57,410.46,412.5,400.91,390.35,0.01895,"August 31, 2020",413305,457692,416.52,174.49,IDEXX Laboratories Inc,Medical Products and Equipment
+66,ROST,95.0,92.64,97.23,93.22,97.68,-0.02978,"August 31, 2020",2068893,2566432,125.61,58.9,Ross Stores Inc,Specialty Retailers
+67,MAR,109.01,104.55,109.37,106.94,111.31,-0.03155,"August 31, 2020",2892271,2924418,158.69,47.78,Marriott International Inc/MD,"Hotels, Casinos, Resorts"
+68,CDNS,112.0,111.66,116.0,112.049,111.01,0.00045,"August 31, 2020",1656944,1491583,118.64,51.9,Cadence Design Systems Inc,Computer Software
+69,VRSK,191.79,187.72,191.5,188.26,196.02,-0.00366,"August 31, 2020",940563,659527,194.8,118.09,Verisk Analytics Inc,Financial Data Services
+70,PCAR,90.17,88.28,87.433,86.95,88.76,-0.00753,"August 31, 2020",1469885,1710142,94.4,50.85,PACCAR Inc,Construction and Farm Machinery
+71,ASML,383.98,378.14,394.25,376.08,387.09,-0.01455,"August 31, 2020",543691,718545,403.18,197.13,ASML Holding NV,Semiconductors and Other Electronic Components
+72,ANSS,345.95,347.79,356.09,337.14,347.58,0.00699,"August 31, 2020",531641,378264,343.09,209.5,ANSYS Inc,IT Software & Services
+73,FAST,49.04,49.18,50.42,49.04,49.38,0.00043,"August 31, 2020",3114891,3116230,50.55,26.87,Fastenal Co,Wholesalers
+74,MRNA,69.2,66.2,68.0,64.25,70.71,-0.03922,"August 31, 2020",15321248,17876096,99.61,14.09,Moderna Inc,Drugs & Biotechnology
+75,PAYX,77.29,77.89,77.25,78.572,77.44,-0.01088,"August 31, 2020",1534328,1589513,92.93,50.04,Paychex Inc,Diversified Outsourcing Services
+76,SGEN,158.36,158.6,162.123,153.33,157.92,0.03065,"August 31, 2020",1237997,885749,192.86,68.28,Seattle Genetics Inc,Drugs & Biotechnology
+77,MCHP,113.0,110.1,113.97,113.932,115.83,-0.00765,"August 31, 2020",2035487,2572361,117.46,55.65,Microchip Technology Inc,Semiconductors and Other Electronic Components
+78,SIRI,5.9,5.92,6.046,5.99,6.12,-0.0154,"August 31, 2020",19273536,22202132,7.5,4.3,Sirius XM Holdings Inc,Entertainment
+79,XLNX,107.48,105.02,107.361,106.51,106.92,-0.00732,"August 31, 2020",1643719,2387634,113.2,68.7,Xilinx Inc,Semiconductors and Other Electronic Components
+80,DLTR,97.6,99.44,101.14,96.5,97.15,0.01656,"August 31, 2020",2603796,2066560,124.07,63.0,Dollar Tree Inc,Specialty Retailers
+81,PDD,91.51,90.79,92.15,92.0,91.5,-0.00298,"August 31, 2020",8590308,9354896,102.92,31.37,Pinduoduo Inc,Information Technology Services
+82,VRSN,213.17,224.8,226.17,218.92,214.2,0.033,"August 31, 2020",880067,667392,228.9,154.75,VeriSign Inc,IT Software & Services
+83,CPRT,108.53,104.8,104.74,103.361,106.15,-0.0074,"August 31, 2020",1138504,1258571,107.56,56.67,Copart Inc,"Automotive Retailing, Services"
+84,SWKS,145.03,149.47,151.84,142.25,149.41,0.00869,"August 31, 2020",2126210,1828725,156.71,69.2,Skyworks Solutions Inc,Semiconductors and Other Electronic Components
+85,ALGN,314.95,303.91,313.7,309.54,312.77,-0.0121,"August 31, 2020",575842,688566,329.0,132.6,Align Technology Inc,Medical Products and Equipment
+86,ALXN,111.4,116.28,119.0,112.78,111.23,0.06877,"August 31, 2020",5539940,1671731,126.9,74.54,Alexion Pharmaceuticals Inc,Pharmaceuticals
+87,CERN,73.65,75.49,76.93,72.84,75.0,0.00797,"August 31, 2020",2100431,1614438,84.0,55.7,Cerner Corp,Health Care: Pharmacy and Other Services
+88,INCY,98.08,97.21,99.077,97.515,97.4,0.0266,"August 31, 2020",918651,1101730,115.86,63.28,Incyte Corp,Drugs & Biotechnology
+89,TTWO,170.83,172.35,174.67,174.63,177.18,0.00077,"August 31, 2020",926231,1300619,180.77,104.0,Take-Two Interactive Software Inc,Entertainment
+90,MXIM,71.6,69.49,70.5,69.5,70.42,-0.02644,"August 31, 2020",7917532,3820811,74.39,42.87,Maxim Integrated Products Inc,Semiconductors and Other Electronic Components
+91,CHKP,127.06,127.76,132.2,128.2,129.2,-0.00514,"August 31, 2020",1376242,1287427,134.31,82.8,Check Point Software Technologies Ltd,IT Software & Services
+92,CTXS,145.33,150.7,147.9,146.23,146.97,0.00834,"August 31, 2020",1268253,1652327,178.69,96.7,Citrix Systems Inc,Computer Software
+93,CDW,119.01,116.79,119.85,115.82,116.01,-0.01505,"August 31, 2020",648360,725176,151.4,74.81,CDW Corp/DE,Information Technology Services
+94,TCOM,30.94,31.12,31.265,31.08,30.73,-0.01303,"August 31, 2020",5954439,4890814,39.33,20.5,Trip.com Group Ltd,Travel Services
+95,BMRN,77.71,78.76,82.0,77.23,76.72,0.0222,"August 31, 2020",3111938,2961192,138.09,63.62,BioMarin Pharmaceutical Inc,Drugs & Biotechnology
+96,EXPE,105.46,101.94,104.73,100.03,103.99,-0.02822,"August 31, 2020",2940176,2900014,142.02,40.89,Expedia Group Inc,Internet Services and Retailing
+97,ULTA,242.42,238.82,243.9,233.5,248.48,-0.02126,"August 31, 2020",1323053,1258676,307.31,130.2,Ulta Beauty Inc,Specialty Retailers
+98,WDC,38.87,39.06,40.26,37.66,38.69,0.01606,"August 31, 2020",9313528,7069544,72.0,27.7,Western Digital Corp,"Computers, Office Equipment"
+99,LBTYK,23.84,23.36,23.8,23.12,23.69,-0.00088,"August 31, 2020",3913479,2749319,28.82,14.37,Liberty Global PLC,Insurance

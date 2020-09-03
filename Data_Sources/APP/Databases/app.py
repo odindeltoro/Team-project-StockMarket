@@ -39,6 +39,21 @@ def consult(Historical):
     engine.dispose()
 
     return datos.to_json(orient='records')
+@app.route("/api/graph/<industry>")
+def graph(industry):
+    if industry =='sector':
+        query=f"select sector, count(sector) from financials group by sector"
+        engine=create_engine("postgresql+psycopg2://postgres:jaramillo35@/StockPrices")
+        datos = pd.read_sql(query, engine)
+        engine.dispose()
+    else:
+        query=f"select industry, count(industry) from financials group by industry"
+        engine=create_engine("postgresql+psycopg2://postgres:jaramillo35@/StockPrices")
+        datos = pd.read_sql(query, engine)
+        engine.dispose() 
+
+    return datos.to_json()
+
 # @app.route("/search/<a>")
 # def consult(a):
 #     if a == "0":

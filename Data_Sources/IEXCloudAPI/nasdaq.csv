@@ -1,0 +1,101 @@
+No,Ticker,Name,Sector,Industry
+1,AAPL,Apple Inc.,Technology,Computer Manufacturing
+2,AMZN,"Amazon.com, Inc.",Consumer Services,Catalog/Specialty Distribution
+3,MSFT,Microsoft Corporation,Technology,Computer Software: Prepackaged Software
+4,FB,"Facebook, Inc.",Technology,"Computer Software: Programming, Data Processing"
+5,GOOGL,Alphabet Inc.,Technology,"Computer Software: Programming, Data Processing"
+6,GOOG,Alphabet Inc.,Technology,"Computer Software: Programming, Data Processing"
+7,TSLA,"Tesla, Inc.",Capital Goods,Auto Manufacturing
+8,NVDA,NVIDIA Corporation,Technology,Semiconductors
+9,ADBE,Adobe Inc.,Technology,Computer Software: Prepackaged Software
+10,NFLX,"Netflix, Inc.",Consumer Services,Consumer Electronics/Video Chains
+11,PYPL,"Paypal Holdings, Inc.",Miscellaneous,Business Services
+12,INTC,Intel Corporation,Technology,Semiconductors
+13,CMCSA,Comcast Corporation,Consumer Services,Television Services
+14,PEP,"Pepsico, Inc.",Consumer Non-Durables,Beverages(Production/Distribution)
+15,CSCO,"Cisco Systems, Inc.",Technology,Computer Communications Equipment
+16,COST,Costco Wholesale Corporation,Consumer Services,Department/Specialty Retail Stores
+17,AMGN,Amgen Inc.,Health Care,Biotechnology: Biological Products(No Diagnostic Substances)
+18,TMUS,"T-Mobile US, Inc.",Public Utilities,Telecommunications Equipment
+19,AVGO,Broadcom Inc.,Technology,Semiconductors
+20,TXN,Texas Instruments Incorporated,Technology,Semiconductors
+21,QCOM,QUALCOMM Incorporated,Technology,Radio and Television Broadcasting and Communications Equipment
+22,CHTR,"Charter Communications, Inc.",Consumer Services,Television Services
+23,AMD,"Advanced Micro Devices, Inc.",Technology,Semiconductors
+24,SBUX,Starbucks Corporation,Consumer Services,Restaurants
+25,INTU,Intuit Inc.,Technology,Computer Software: Prepackaged Software
+26,MDLZ,"Mondelez International, Inc.",Consumer Non-Durables,Packaged Foods
+27,GILD,"Gilead Sciences, Inc.",Health Care,Biotechnology: Biological Products(No Diagnostic Substances)
+28,ISRG,"Intuitive Surgical, Inc.",Health Care,Industrial Specialties
+29,BKNG,Booking Holdings Inc.,Miscellaneous,Business Services
+30,JD,"JD.com, Inc.",Consumer Services,Other Specialty Stores
+31,VRTX,Vertex Pharmaceuticals Incorporated,Health Care,Major Pharmaceuticals
+32,FISV,"Fiserv, Inc.",Technology,EDP Services
+33,ATVI,"Activision Blizzard, Inc",Technology,Computer Software: Prepackaged Software
+34,REGN,"Regeneron Pharmaceuticals, Inc.",Health Care,Major Pharmaceuticals
+35,MELI,"MercadoLibre, Inc.",Miscellaneous,Business Services
+36,ADP,"Automatic Data Processing, Inc.",Technology,EDP Services
+37,AMAT,"Applied Materials, Inc.",Technology,Semiconductors
+38,CSX,CSX Corporation,Transportation,Railroads
+39,ADSK,"Autodesk, Inc.",Technology,Computer Software: Prepackaged Software
+40,ILMN,"Illumina, Inc.",Capital Goods,Biotechnology: Laboratory Analytical Instruments
+41,LRCX,Lam Research Corporation,Technology,Industrial Machinery/Components
+42,MU,"Micron Technology, Inc.",Technology,Semiconductors
+43,ZM,"Zoom Video Communications, Inc.",Technology,"Computer Software: Programming, Data Processing"
+44,LULU,Lululemon Athletica Inc.,Consumer Non-Durables,Apparel
+45,BIIB,Biogen Inc.,Health Care,Biotechnology: Biological Products(No Diagnostic Substances)
+46,ADI,"Analog Devices, Inc.",Technology,Semiconductors
+47,MNST,Monster Beverage Corporation,Consumer Non-Durables,Beverages(Production/Distribution)
+48,KHC,The Kraft Heinz Company,Consumer Non-Durables,Packaged Foods
+49,EA,Electronic Arts Inc.,Technology,Computer Software: Prepackaged Software
+50,EBAY,eBay Inc.,Miscellaneous,Business Services
+51,DXCM,"DexCom, Inc.",Health Care,Medical/Dental Instruments
+52,DOCU,"DocuSign, Inc.",Technology,Computer Software: Prepackaged Software
+53,NTES,"NetEase, Inc.",Miscellaneous,Business Services
+54,WDAY,"Workday, Inc.",Technology,EDP Services
+55,CTSH,Cognizant Technology Solutions Corporation,Technology,EDP Services
+56,EXC,Exelon Corporation,Public Utilities,Power Generation
+57,XEL,Xcel Energy Inc.,Public Utilities,Power Generation
+58,NXPI,NXP Semiconductors N.V.,Technology,Semiconductors
+59,BIDU,"Baidu, Inc.",Technology,"Computer Software: Programming, Data Processing"
+60,SPLK,Splunk Inc.,Technology,Computer Software: Prepackaged Software
+61,ORLY,"O'Reilly Automotive, Inc.",Consumer Services,Other Specialty Stores
+62,WBA,"Walgreens Boots Alliance, Inc.",Health Care,Medical/Nursing Services
+63,CTAS,Cintas Corporation,Consumer Non-Durables,Textiles
+64,SNPS,"Synopsys, Inc.",Technology,Computer Software: Prepackaged Software
+65,KLAC,KLA-Tencor Corporation,Capital Goods,Electronic Components
+66,IDXX,"IDEXX Laboratories, Inc.",Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances
+67,ROST,"Ross Stores, Inc.",Consumer Services,Clothing/Shoe/Accessory Stores
+68,MAR,Marriott International,Consumer Services,Hotels/Resorts
+69,CDNS,"Cadence Design Systems, Inc.",Technology,Computer Software: Prepackaged Software
+70,VRSK,"Verisk Analytics, Inc.",Technology,EDP Services
+71,PCAR,PACCAR Inc.,Capital Goods,Auto Manufacturing
+72,ASML,ASML Holding N.V.,Technology,Industrial Machinery/Components
+73,ANSS,"ANSYS, Inc.",Technology,Computer Software: Prepackaged Software
+74,FAST,Fastenal Company,Consumer Services,Retail: Buliding Materials
+75,MRNA,"Moderna, Inc.",Health Care,Biotechnology: Biological Products(No Diagnostic Substances)
+76,PAYX,"Paychex, Inc.",Consumer Services,Diversified Commercial Services
+77,SGEN,"Seattle Genetics, Inc.",Health Care,Biotechnology: Biological Products(No Diagnostic Substances)
+78,MCHP,Microchip Technology Incorporated,Technology,Semiconductors
+79,SIRI,Sirius XM Holdings Inc.,Consumer Services,Broadcasting
+80,XLNX,"Xilinx, Inc.",Technology,Semiconductors
+81,DLTR,"Dollar Tree, Inc.",Consumer Services,Department/Specialty Retail Stores
+82,PDD,Pinduoduo Inc,Miscellaneous,Business Services
+83,VRSN,"VeriSign, Inc.",Technology,EDP Services
+84,CPRT,"Copart, Inc.",Consumer Durables,Automotive Aftermarket
+85,SWKS,"Skyworks Solutions, Inc.",Technology,Semiconductors
+86,ALGN,"Align Technology, Inc.",Health Care,Industrial Specialties
+87,ALXN,"Alexion Pharmaceuticals, Inc.",Health Care,Major Pharmaceuticals
+88,CERN,Cerner Corporation,Technology,EDP Services
+89,INCY,Incyte Corporation,Health Care,Biotechnology: Commercial Physical & Biological Research
+90,TTWO,"Take-Two Interactive Software, Inc.",Technology,Computer Software: Prepackaged Software
+91,MXIM,"Maxim Integrated Products, Inc.",Technology,Semiconductors
+92,CHKP,Check Point Software Technologies Ltd.,Technology,Computer Software: Prepackaged Software
+93,CTXS,"Citrix Systems, Inc.",Technology,Computer Software: Prepackaged Software
+94,CDW,CDW Corporation,Consumer Services,Catalog/Specialty Distribution
+95,TCOM,Trip.com Group Limited,Miscellaneous,Business Services
+96,BMRN,BioMarin Pharmaceutical Inc.,Health Care,Major Pharmaceuticals
+97,EXPE,"Expedia Group, Inc.",Consumer Services,Transportation Services
+98,ULTA,"Ulta Beauty, Inc.",Consumer Services,Other Specialty Stores
+99,WDC,Western Digital Corporation,Technology,Electronic Components
+100,LBTYK,Liberty Global PLC,Consumer Services,Television Services

@@ -17,15 +17,15 @@ def graph(industry):
     if industry =='sector':
         query=f"SELECT sector, COUNT(sector) FROM financials GROUP BY sector"
         engine=create_engine(engine_string)
-        datos = pd.read_sql(query, engine)
+        data = pd.read_sql(query, engine)
         engine.dispose()
     else:
         query=f"SELECT sector,industry ,COUNT(industry) FROM financials GROUP BY industry,sector"
         engine=create_engine(engine_string)
-        datos = pd.read_sql(query, engine)
+        data = pd.read_sql(query, engine)
         engine.dispose() 
     # print("connection succesful")
-    return datos.to_json()
+    return data.to_json(orient="records")
 
 if __name__ == "__main__":
     app.run()

@@ -73,8 +73,8 @@ function graph() {
           animateRotate: true,
           animateScale: true
         },
-      });
-    } else {
+      },
+    })} else {
       d3.select("#modify")
         .append("canvas")
         .attr("id", "polar-chart")
@@ -146,7 +146,8 @@ function graph() {
       });
     }
   });
-}
+};
+
 function delet() {
   d3.select("#polar-chart").remove();
   graph();

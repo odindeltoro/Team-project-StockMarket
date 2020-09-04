@@ -6,7 +6,7 @@ import os
 
 app = Flask(__name__)
 
-engine_string = os.environ.get("DATABASE_URL","")
+# engine_string = os.environ.get("DATABASE_URL","")
 
 @app.route("/")
 def main():
@@ -17,16 +17,16 @@ def main():
 def graph(industry):
     if industry =='sector':
         query=f"SELECT sector, COUNT(sector) FROM financials GROUP BY sector"
-        engine=create_engine(engine_string)
-        datos = pd.read_sql(query, engine)
+        engine=create_engine(f"postgresql+psycopg2://postgres:{password}@/StockPrices")
+        data = pd.read_sql(query, engine)
         engine.dispose()
     else:
-        query=f"SELECT sector,industry ,COUNT(industry) FROM financials GROUP BY industry,sector"
-        engine=create_engine(engine_string)
-        datos = pd.read_sql(query, engine)
+        query=f"SELECT industry ,COUNT(industry) FROM financials GROUP BY industry"
+        engine=create_engine(f"")
+        data = pd.read_sql(query,f"postgresql+psycopg2://postgres:{password}@/StockPrices")
         engine.dispose() 
     # print("connection succesful")
-    return datos.to_json()
+    return data.to_json()
 
 if __name__ == "__main__":
     app.run()

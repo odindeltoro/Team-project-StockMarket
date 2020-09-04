@@ -151,7 +151,7 @@ function graph() {
               options: {
                   title: {
                       display: true,
-                      text: 'Company by Sector'
+                      text: 'Company by Industry'
                   }
               }
           });

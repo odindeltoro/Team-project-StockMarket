@@ -20,7 +20,7 @@ def graph(industry):
         data = pd.read_sql(query, engine)
         engine.dispose()
     else:
-        query=f"SELECT sector,industry ,COUNT(industry) FROM financials GROUP BY industry,sector"
+        query=f"SELECT industry, COUNT(industry) FROM financials GROUP BY industry"
         engine=create_engine(engine_string)
         data = pd.read_sql(query, engine)
         engine.dispose() 

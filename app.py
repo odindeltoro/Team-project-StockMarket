@@ -1,7 +1,6 @@
 import pandas as pd
 from sqlalchemy import create_engine
 from flask import Flask, render_template, request
-from postgresql_key import password
 import os
 
 app = Flask(__name__)

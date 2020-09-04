@@ -25,7 +25,7 @@ def graph(industry):
         data = pd.read_sql(query, engine)
         engine.dispose() 
     # print("connection succesful")
-    return data.to_json(orient="records")
+    return data.to_json()
 
 if __name__ == "__main__":
     app.run()

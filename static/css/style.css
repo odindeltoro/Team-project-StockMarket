@@ -2066,7 +2066,7 @@ only screen and (min-width: 125em) {
     background-size  : cover;
     -webkit-transform: skewY(-7deg);
     transform        : skewY(-7deg);
-    margin-top       : 10rem
+    margin-top       : -10rem
 }
 
 .section-features>* {

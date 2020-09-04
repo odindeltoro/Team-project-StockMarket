@@ -118,7 +118,7 @@ function graph() {
                   animation: {
                     animateRotate: true,
                     animateScale: true
-              }
+              },
           }});
       } else {
           d3.select("#modify")

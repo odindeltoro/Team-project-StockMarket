@@ -1,7 +1,7 @@
+import os
 import pandas as pd
 from sqlalchemy import create_engine
 from flask import Flask, render_template, request
-import os
 
 app = Flask(__name__)
 
@@ -15,13 +15,13 @@ def main():
 @app.route("/api/graph/<industry>")
 def graph(industry):
     if industry =='sector':
-        query=f"SELECT sector, COUNT(sector) FROM financials GROUP BY sector"
-        engine=create_engine(engine_string)
+        query = f"SELECT sector, COUNT(sector) FROM financials GROUP BY sector"
+        engine = create_engine(engine_string)
         data = pd.read_sql(query, engine)
         engine.dispose()
     else:
-        query=f"SELECT industry, COUNT(industry) FROM financials GROUP BY industry"
-        engine=create_engine(engine_string)
+        query = f"SELECT industry, COUNT(industry) FROM financials GROUP BY industry"
+        engine = create_engine(engine_string)
         data = pd.read_sql(query, engine)
         engine.dispose() 
     # print("connection succesful")

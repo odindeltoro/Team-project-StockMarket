@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Symbol,OpenPrice,ClosePrice,HighPrice,LowPrice,PreviousDayClosePrice,ChangePercentagefromPreviousDay,LatestTime,Volume,30DayAverageVolume,Adjusted52WeekHigh,Adjusted52WeekLow,Name,Industry
 0,AAPL,132.27,130.44,133.0,127.0,127.58,0.03491,"August 31, 2020",234711876,185309837,133.0,52.76,Apple Inc,"Computers, Office Equipment"
 1,AMZN,3468.14,3570.35,3625.0,3540.0,3528.5,0.01511,"August 31, 2020",4440668,4370559,3583.0,1627.15,Amazon.com Inc,Internet Services and Retailing
@@ -99,3 +100,106 @@
 97,ULTA,242.42,238.82,243.9,233.5,248.48,-0.02126,"August 31, 2020",1323053,1258676,307.31,130.2,Ulta Beauty Inc,Specialty Retailers
 98,WDC,38.87,39.06,40.26,37.66,38.69,0.01606,"August 31, 2020",9313528,7069544,72.0,27.7,Western Digital Corp,"Computers, Office Equipment"
 99,LBTYK,23.84,23.36,23.8,23.12,23.69,-0.00088,"August 31, 2020",3913479,2749319,28.82,14.37,Liberty Global PLC,Insurance
+=======
+,Symbol,OpenPrice,ClosePrice,HighPrice,LowPrice,PreviousDayClosePrice,ChangePercentagefromPreviousDay,LatestTime,Volume,30DayAverageVolume,Adjusted52WeekHigh,Adjusted52WeekLow,Name,Sector,Industry
+0,AAPL,,,,,128.05,0.04561,1:39:18 PM,,46258025,535.23,130.0,Apple Inc.,Technology,Computer Manufacturing
+1,AMZN,,,,,3526.9,0.02399,1:39:05 PM,,4462515,3593.0,1662.98,"Amazon.com, Inc.",Consumer Services,Catalog/Specialty Distribution
+2,MSFT,,,,,238.97,-0.0163,1:39:15 PM,,35117750,242.18,134.69,Microsoft Corporation,Technology,Computer Software: Prepackaged Software
+3,FB,,,,,299.0,0.00197,1:39:00 PM,,26021156,316.74,143.0,"Facebook, Inc.",Technology,"Computer Software: Programming, Data Processing"
+4,GOOGL,,,,,1639.5,-0.00513,1:35:33 PM,,1601364,1698.47,1034.75,Alphabet Inc.,Technology,"Computer Software: Programming, Data Processing"
+5,GOOG,,,,,1658.67,-0.00656,1:37:20 PM,,1786507,1686.24,1042.35,Alphabet Inc.,Technology,"Computer Software: Programming, Data Processing"
+6,TSLA,,,,,453.82,0.1008,1:39:23 PM,,15152994,2365.85,226.0,"Tesla, Inc.",Capital Goods,Auto Manufacturing
+7,NVDA,,,,,543.08,0.02432,1:37:28 PM,,10759236,542.83,163.81,NVIDIA Corporation,Technology,Semiconductors
+8,ADBE,,,,,541.51,-0.01118,1:39:11 PM,,2470722,553.1,257.08,Adobe Inc.,Technology,Computer Software: Prepackaged Software
+9,NFLX,,,,,537.45,0.00544,1:36:54 PM,,6488724,579.25,259.64,"Netflix, Inc.",Consumer Services,Consumer Electronics/Video Chains
+10,PYPL,,,,,210.51,-0.00288,1:38:00 PM,,7534148,209.0,85.85,"Paypal Holdings, Inc.",Miscellaneous,Business Services
+11,INTC,,,,,50.6,0.01938,1:39:24 PM,,40973553,69.73,45.17,Intel Corporation,Technology,Semiconductors
+12,CMCSA,,,,,46.62,0.00453,1:38:30 PM,,15484086,48.14,33.06,Comcast Corporation,Consumer Services,Television Services
+13,PEP,,,,,145.11,0.0005,1:39:14 PM,,3550572,147.7,101.51,"Pepsico, Inc.",Consumer Non-Durables,Beverages(Production/Distribution)
+14,CSCO,,,,,44.1,-0.00484,1:39:05 PM,,21648962,52.3,33.6,"Cisco Systems, Inc.",Technology,Computer Communications Equipment
+15,COST,,,,,348.74,-0.0036,1:34:15 PM,,1921291,351.77,281.31,Costco Wholesale Corporation,Consumer Services,Department/Specialty Retail Stores
+16,AMGN,,,,,260.53,-0.00303,1:39:20 PM,,2557039,276.46,177.98,Amgen Inc.,Health Care,Biotechnology: Biological Products(No Diagnostic Substances)
+17,TMUS,,,,,117.28,-0.0015,1:35:11 PM,,4097104,121.0,65.4,"T-Mobile US, Inc.",Public Utilities,Telecommunications Equipment
+18,AVGO,,,,,356.42,0.00544,1:36:54 PM,,1580355,361.63,156.05,Broadcom Inc.,Technology,Semiconductors
+19,TXN,,,,,148.35,-0.00521,1:38:09 PM,,4312826,149.93,95.1,Texas Instruments Incorporated,Technology,Semiconductors
+20,QCOM,,,,,119.2,0.01865,1:38:41 PM,,10658381,123.03,59.0,QUALCOMM Incorporated,Technology,Radio and Television Broadcasting and Communications Equipment
+21,CHTR,,,,,624.63,0.00371,1:36:32 PM,,835250,641.48,356.26,"Charter Communications, Inc.",Consumer Services,Television Services
+22,AMD,,,,,86.36,0.07468,1:39:24 PM,,73755279,92.87,27.75,"Advanced Micro Devices, Inc.",Technology,Semiconductors
+23,SBUX,,,,,87.0,-0.0045,1:39:25 PM,,8322304,100.95,52.07,Starbucks Corporation,Consumer Services,Restaurants
+24,INTU,,,,,360.77,-0.00475,1:37:26 PM,,1169412,371.0,191.55,Intuit Inc.,Technology,Computer Software: Prepackaged Software
+25,MDLZ,,,,,60.74,-0.00113,1:39:12 PM,,5735030,60.47,41.97,"Mondelez International, Inc.",Consumer Non-Durables,Packaged Foods
+26,GILD,,,,,67.89,0.01588,1:38:32 PM,,9201504,86.84,61.84,"Gilead Sciences, Inc.",Health Care,Biotechnology: Biological Products(No Diagnostic Substances)
+27,ISRG,,,,,731.97,0.00557,1:36:39 PM,,566823,749.05,360.6,"Intuitive Surgical, Inc.",Health Care,Industrial Specialties
+28,BKNG,,,,,2008.25,-0.01775,1:37:31 PM,,320565,2198.0,1126.0,Booking Holdings Inc.,Miscellaneous,Business Services
+29,JD,,,,,83.75,-0.01395,1:39:23 PM,,13045675,83.0,27.8,"JD.com, Inc.",Consumer Services,Other Specialty Stores
+30,VRTX,,,,,271.26,0.03145,1:39:01 PM,,1274616,315.01,168.85,Vertex Pharmaceuticals Incorporated,Health Care,Major Pharmaceuticals
+31,FISV,,,,,100.96,-0.0116,1:39:03 PM,,4555728,130.86,75.0,"Fiserv, Inc.",Technology,EDP Services
+32,ATVI,,,,,86.24,0.00074,1:38:48 PM,,6485845,89.36,52.13,"Activision Blizzard, Inc",Technology,Computer Software: Prepackaged Software
+33,REGN,,,,,622.2,0.0201,1:38:43 PM,,644232,695.61,276.77,"Regeneron Pharmaceuticals, Inc.",Health Care,Major Pharmaceuticals
+34,MELI,,,,,1226.5,-0.02572,1:38:07 PM,,499004,1312.0,439.42,"MercadoLibre, Inc.",Miscellaneous,Business Services
+35,ADP,,,,,142.44,-0.01839,1:39:00 PM,,2262069,187.72,107.91,"Automatic Data Processing, Inc.",Technology,EDP Services
+36,AMAT,,,,,65.27,-0.01973,1:37:39 PM,,7250342,71.8,37.2,"Applied Materials, Inc.",Technology,Semiconductors
+37,CSX,,,,,80.62,-0.01016,1:39:00 PM,,3282852,82.48,49.1,CSX Corporation,Transportation,Railroads
+38,ADSK,,,,,257.07,-0.00644,1:37:58 PM,,1139661,261.05,130.31,"Autodesk, Inc.",Technology,Computer Software: Prepackaged Software
+39,ILMN,,,,,355.0,0.01091,1:37:20 PM,,873053,409.4,204.24,"Illumina, Inc.",Capital Goods,Biotechnology: Laboratory Analytical Instruments
+40,LRCX,,,,,353.03,-0.03277,1:36:41 PM,,1562262,395.9,182.22,Lam Research Corporation,Technology,Industrial Machinery/Components
+41,MU,,,,,46.23,-0.00738,1:38:46 PM,,19237710,63.87,32.47,"Micron Technology, Inc.",Technology,Semiconductors
+42,ZM,,,,,304.83,0.04524,1:37:32 PM,,5623189,319.053,61.43,"Zoom Video Communications, Inc.",Technology,"Computer Software: Programming, Data Processing"
+43,LULU,,,,,392.83,0.00435,1:38:59 PM,,1390791,385.56,131.86,Lululemon Athletica Inc.,Consumer Non-Durables,Apparel
+44,BIIB,,,,,289.18,0.01986,1:36:49 PM,,1232889,382.99,223.49,Biogen Inc.,Health Care,Biotechnology: Biological Products(No Diagnostic Substances)
+45,ADI,,,,,124.35,-0.01678,1:38:59 PM,,3552926,128.76,81.5,"Analog Devices, Inc.",Technology,Semiconductors
+46,MNST,,,,,87.54,-0.01224,1:39:31 PM,,1905608,85.45,51.87,Monster Beverage Corporation,Consumer Non-Durables,Beverages(Production/Distribution)
+47,KHC,,,,,36.52,-0.00194,1:37:46 PM,,5477466,37.37,20.51,The Kraft Heinz Company,Consumer Non-Durables,Packaged Foods
+48,EA,,,,,147.84,-0.0144,1:37:03 PM,,1878730,150.69,86.86,Electronic Arts Inc.,Technology,Computer Software: Prepackaged Software
+49,EBAY,,,,,56.12320451243488,-0.00298,1:39:33 PM,,8210687,62.72,26.55,eBay Inc.,Miscellaneous,Business Services
+50,DXCM,,,,,424.32,0.006,1:37:46 PM,,730795,474.95,142.35,"DexCom, Inc.",Health Care,Medical/Dental Instruments
+51,DOCU,,,,,222.69,0.02721,1:38:01 PM,,3426580,235.73,47.14,"DocuSign, Inc.",Technology,Computer Software: Prepackaged Software
+52,NTES,,,,,507.97,-0.03266,1:35:58 PM,,527269,532.49,253.2,"NetEase, Inc.",Miscellaneous,Business Services
+53,WDAY,,,,,248.22,-0.01141,1:38:55 PM,,1881606,255.8,110.84,"Workday, Inc.",Technology,EDP Services
+54,CTSH,,,,,70.78,-0.00933,1:38:45 PM,,2607752,72.14,41.51,Cognizant Technology Solutions Corporation,Technology,EDP Services
+55,EXC,,,,,38.05,-0.0036,1:37:36 PM,,5869869,50.75,29.64,Exelon Corporation,Public Utilities,Power Generation
+56,XEL,,,,,71.88,0.00871,1:39:34 PM,,2317474,75.0,48.13,Xcel Energy Inc.,Public Utilities,Power Generation
+57,NXPI,,,,,130.33,-0.01332,1:36:23 PM,,2117357,144.12,58.99,NXP Semiconductors N.V.,Technology,Semiconductors
+58,BIDU,,,,,134.0,-0.03107,1:39:23 PM,,3599998,147.88,85.0,"Baidu, Inc.",Technology,"Computer Software: Programming, Data Processing"
+59,SPLK,,,,,222.28,-0.01167,1:38:57 PM,,1614199,225.89,96.0,Splunk Inc.,Technology,Computer Software: Prepackaged Software
+60,ORLY,,,,,479.54,0.0063,1:37:44 PM,,564309,502.43,262.91,"O'Reilly Automotive, Inc.",Consumer Services,Other Specialty Stores
+61,WBA,,,,,39.72,-0.01656,1:37:03 PM,,5710741,65.2,37.16,"Walgreens Boots Alliance, Inc.",Health Care,Medical/Nursing Services
+62,CTAS,,,,,349.27,-0.00659,1:38:47 PM,,457021,348.8,154.97,Cintas Corporation,Consumer Non-Durables,Textiles
+63,SNPS,,,,,224.72,0.00904,1:39:32 PM,,787702,224.82,105.8,"Synopsys, Inc.",Technology,Computer Software: Prepackaged Software
+64,KLAC,,,,,215.53,-0.01219,1:39:13 PM,,1140543,222.16,113.35,KLA-Tencor Corporation,Capital Goods,Electronic Components
+65,IDXX,,,,,387.13,0.01597,1:38:50 PM,,460684,419.43,174.89,"IDEXX Laboratories, Inc.",Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances
+66,ROST,,,,,98.49,-0.02324,1:36:38 PM,,2634093,129.7,57.4,"Ross Stores, Inc.",Consumer Services,Clothing/Shoe/Accessory Stores
+67,MAR,,,,,110.52,-0.0233,1:38:27 PM,,2990469,154.02,46.92,Marriott International,Consumer Services,Hotels/Resorts
+68,CDNS,,,,,112.4,-0.00132,1:37:02 PM,,1516398,117.49,53.8,"Cadence Design Systems, Inc.",Technology,Computer Software: Prepackaged Software
+69,VRSK,,,,,187.75,-0.0062,1:37:03 PM,,660154,201.2,117.95,"Verisk Analytics, Inc.",Technology,EDP Services
+70,PCAR,,,,,86.75,-0.00803,1:30:29 PM,,1688421,94.1,50.47,PACCAR Inc.,Capital Goods,Auto Manufacturing
+71,ASML,,,,,395.65,-0.01003,1:35:22 PM,,720929,418.59,196.01,ASML Holding N.V.,Technology,Industrial Machinery/Components
+72,ANSS,,,,,344.64,0.0014,1:39:28 PM,,364089,347.13,207.92,"ANSYS, Inc.",Technology,Computer Software: Prepackaged Software
+73,FAST,,,,,49.49,-0.0001,1:37:21 PM,,3148255,50.03,26.85,Fastenal Company,Consumer Services,Retail: Buliding Materials
+74,MRNA,,,,,68.63,-0.0534,1:38:40 PM,,20077109,95.41,14.12,"Moderna, Inc.",Health Care,Biotechnology: Biological Products(No Diagnostic Substances)
+75,PAYX,,,,,78.01,-0.01133,1:39:01 PM,,1542869,90.99,48.07,"Paychex, Inc.",Consumer Services,Diversified Commercial Services
+76,SGEN,,,,,157.81,0.0291,1:39:24 PM,,873858,189.67,67.51,"Seattle Genetics, Inc.",Health Care,Biotechnology: Biological Products(No Diagnostic Substances)
+77,MCHP,,,,,110.79,-0.00316,1:27:50 PM,,2554683,118.15,55.5,Microchip Technology Incorporated,Technology,Semiconductors
+78,SIRI,,,,,5.98,-0.01681,1:38:39 PM,,21972509,7.7,4.3,Sirius XM Holdings Inc.,Consumer Services,Broadcasting
+79,XLNX,,,,,109.61,-0.00627,1:39:03 PM,,2378685,117.59,70.23,"Xilinx, Inc.",Technology,Semiconductors
+80,DLTR,,,,,99.41,0.00773,1:38:33 PM,,2102061,121.51,61.4,"Dollar Tree, Inc.",Consumer Services,Department/Specialty Retail Stores
+81,PDD,,,,,89.9,-0.00039,1:39:31 PM,,9102508,103.11,31.23,Pinduoduo Inc,Miscellaneous,Business Services
+82,VRSN,,,,,213.1,0.02502,1:36:40 PM,,681844,222.8,151.67,"VeriSign, Inc.",Technology,EDP Services
+83,CPRT,,,,,109.12,-0.0001,1:38:59 PM,,1266373,105.46,57.09,"Copart, Inc.",Consumer Durables,Automotive Aftermarket
+84,SWKS,,,,,149.52,0.00634,1:37:39 PM,,1798313,154.54,68.2,"Skyworks Solutions, Inc.",Technology,Semiconductors
+85,ALGN,,,,,306.26,-0.00247,1:38:24 PM,,685958,338.95,130.45,"Align Technology, Inc.",Health Care,Industrial Specialties
+86,ALXN,,,,,109.9,0.07536,1:38:20 PM,,1584599,124.9,74.74,"Alexion Pharmaceuticals, Inc.",Health Care,Major Pharmaceuticals
+87,CERN,,,,,72.9,0.00022,1:39:15 PM,,1543331,81.6,55.03,Cerner Corporation,Technology,EDP Services
+88,INCY,,,,,97.6,0.03131,1:34:36 PM,,1132545,114.72,63.67,Incyte Corporation,Health Care,Biotechnology: Commercial Physical & Biological Research
+89,TTWO,,,,,171.9,0.00488,1:39:34 PM,,1290798,188.18,101.0,"Take-Two Interactive Software, Inc.",Technology,Computer Software: Prepackaged Software
+90,MXIM,,,,,72.48,-0.01989,1:39:38 PM,,3657205,75.19,42.28,"Maxim Integrated Products, Inc.",Technology,Semiconductors
+91,CHKP,,,,,129.55,-0.00719,1:39:17 PM,,1251971,131.85,80.25,Check Point Software Technologies Ltd.,Technology,Computer Software: Prepackaged Software
+92,CTXS,,,,,145.41,0.00549,1:39:40 PM,,1674179,179.04,95.36,"Citrix Systems, Inc.",Technology,Computer Software: Prepackaged Software
+93,CDW,,,,,118.62,-0.0147,1:39:34 PM,,702389,150.87,74.93,CDW Corporation,Consumer Services,Catalog/Specialty Distribution
+94,TCOM,,,,,31.61,0.00017,1:39:23 PM,,4989735,39.63,20.4,Trip.com Group Limited,Miscellaneous,Business Services
+95,BMRN,,,,,76.71,0.0264,1:39:25 PM,,2834347,136.78,63.59,BioMarin Pharmaceutical Inc.,Health Care,Major Pharmaceuticals
+96,EXPE,,,,,102.2,-0.02228,1:39:31 PM,,2851637,140.15,40.89,"Expedia Group, Inc.",Consumer Services,Transportation Services
+97,ULTA,,,,,240.99,-0.02622,1:38:47 PM,,1244608,353.0,125.48,"Ulta Beauty, Inc.",Consumer Services,Other Specialty Stores
+98,WDC,,,,,39.33,0.00855,1:38:16 PM,,6732948,73.0,28.3,Western Digital Corporation,Technology,Electronic Components
+99,LBTYK,,,,,23.44,-0.0081,1:39:32 PM,,2629145,28.86,14.4,Liberty Global PLC,Consumer Services,Television Services
+>>>>>>> 509b87430f3bcb5e545f97449d524a5a340c99b2

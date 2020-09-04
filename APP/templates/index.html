@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="css/icon-font.css">-->
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+    <title>Risk averse invest | Coding Bootcamp 2020</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#objective" class="navigation__link"><span>01</span>Objective</a>
+                </li>
+
+                <li class="navigation__item"><a href="#dashboards"
+                        class="navigation__link"><span>02</span>Dashboards</a></li>
+                <li class="navigation__item"><a href="#sector" class="navigation__link"><span>03</span>Sectors and
+                        Industries</a></li>
+                <li class="navigation__item"><a href="#quantopian"
+                        class="navigation__link"><span>04</span>Quantopian</a></li>
+
+                <li class="navigation__item"><a href="#ml" class="navigation__link"><span>05</span>Machine Learning</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="header">
+        <div class="header__logo-box">
+            <img src="/static/img/mercado.svg" alt="Logo" class="header__logo">
+        </div>
+
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Risk averse investment</span>
+                <span class="heading-primary--sub">Buy low, sell high</span>
+            </h1>
+
+            <a href="#" class="btn btn--white btn--animated">NASDAQ</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-stories" id="objective">
+            <div class="bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+                    <source src="/static/img/video.mp4" type="video/mp4">
+                    <source src="/static/img/video.webm" type="video/webm">
+                    Your browser is not supported!
+                </video>
+            </div>
+
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Objective
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="/static/img/nat-8.jpg" alt="Person on a tour" class="story__img">
+                        <figcaption class="story__caption">Quantopian</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">Quantopian</h3>
+                        <p>
+                            Seleccionamos esta plataforma para poder utilizar la excelente base de datos financiera y
+                            sus librerías especializadas de algoritmos financieros.Confirmar la correlación entre ETF,
+                            QQQ y el indíce NASDAQ. Crear un algoritmo que asemeje el comportamiento entre ETF y NASDAQ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="/static/img/nat-9.jpg" alt="Person on a tour" class="story__img">
+                        <figcaption class="story__caption">Machine Learning</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">Machine Learning</h3>
+                        <p>
+                            Crear un algoritmo con base en 3 modelos de machine learning (regresión lineal, cuadrática,
+                            KNN) que proporcione una predicción de los retornos de la muestra seleccionada y prediga el
+                            precio de las acciones en un plazo establecido.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="section-about" id="dashboards">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Dashboards </h2>
+            </div>
+
+            <div class="row">
+                <div class='tableauPlaceholder' id='viz1599176636461' style='position: relative'><noscript><a
+                            href='#'><img alt=' '
+                                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StockMarketNASDAQ&#47;DashboardPriceTrack&#47;1_rss.png'
+                                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                        <param name='embed_code_version' value='3' />
+                        <param name='site_root' value='' />
+                        <param name='name' value='StockMarketNASDAQ&#47;DashboardPriceTrack' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image'
+                            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StockMarketNASDAQ&#47;DashboardPriceTrack&#47;1.png' />
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='es' /></object></div>
+                <script
+                    type='text/javascript'>                    var divElement = document.getElementById('viz1599176636461'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '927px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                <hr>
+                <div class='tableauPlaceholder' id='viz1599176821912' style='position: relative'><noscript><a
+                            href='#'><img alt=' '
+                                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StockMarketNASDAQ&#47;DashboardVolume&#47;1_rss.png'
+                                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                        <param name='embed_code_version' value='3' />
+                        <param name='site_root' value='' />
+                        <param name='name' value='StockMarketNASDAQ&#47;DashboardVolume' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image'
+                            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StockMarketNASDAQ&#47;DashboardVolume&#47;1.png' />
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='es' /></object></div>
+                <script
+                    type='text/javascript'>                    var divElement = document.getElementById('viz1599176821912'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1327px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                <hr>
+                <div class='tableauPlaceholder' id='viz1599177135380' style='position: relative'><noscript><a
+                            href='#'><img alt=' '
+                                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MJ&#47;MJXZB5JZ5&#47;1_rss.png'
+                                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                        <param name='embed_code_version' value='3' />
+                        <param name='path' value='shared&#47;MJXZB5JZ5' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image'
+                            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MJ&#47;MJXZB5JZ5&#47;1.png' />
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='es' /></object></div>
+                <script
+                    type='text/javascript'>                    var divElement = document.getElementById('viz1599177135380'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                <hr>
+                <div class='tableauPlaceholder' id='viz1599177365109' style='position: relative'><noscript><a
+                            href='#'><img alt=' '
+                                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NA&#47;NASDAQFinancialsFiscalDate2019-2020&#47;DashboardFinancials2&#47;1_rss.png'
+                                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                        <param name='embed_code_version' value='3' />
+                        <param name='site_root' value='' />
+                        <param name='name' value='NASDAQFinancialsFiscalDate2019-2020&#47;DashboardFinancials2' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image'
+                            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NA&#47;NASDAQFinancialsFiscalDate2019-2020&#47;DashboardFinancials2&#47;1.png' />
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='es' /></object></div>
+                <script
+                    type='text/javascript'>                    var divElement = document.getElementById('viz1599177365109'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                <!-- <div class="col-1-of-2">
+                    
+                     <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
+                    <p class="paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur
+                        libero repellat quis consequatur
+                        ducimus quam nisi exercitationem omnis earum qui.
+                    </p>
+
+                    <h3 class="heading-tertiary u-margin-bottom-small">Live adventures like you never have before</h3>
+                    <p class="paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum
+                        nam.
+                    </p>
+
+                    <a href="#" class="btn-text">Learn more &rarr;</a> 
+                </div>-->
+                <!-- <div class="col-1-of-2">
+                    <div class="composition">
+
+                        <img srcset="/static/img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 1"
+                            class="composition__photo composition__photo--p1" src="/static/img/nat-1-large.jpg">
+
+                        <img srcset="/static/img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 2"
+                            class="composition__photo composition__photo--p2" src="/static/img/nat-2-large.jpg">
+
+                        <img srcset="/static/img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 3"
+                            class="composition__photo composition__photo--p3" src="/static/img/nat-3-large.jpg">
+
+                        
+                            <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                            <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                           
+                    </div>
+                </div>  -->
+            </div>
+        </section>
+        <section class="section-book" id="sector">
+            <div class="row">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        Sectors and Industries
+                    </h2>
+                </div>
+                <div class="container">
+
+                    <div class="form-group">
+                        <label for="industry">Count by Sector/Industry</label>
+                        <select name="industry" id="industry">
+                            <option value="sector">Sector</option>
+                            <option value="industry">Industry</option>
+                        </select>
+                    </div>
+                    <div id="modify">
+
+                    </div>
+                </div>
+                <!-- <div class="book">
+                    <div class="book__form">
+                        <form action="#" class="form">
+                            <div class="u-margin-bottom-medium">
+                                <h2 class="heading-secondary">
+                                    Start booking now
+                                </h2>
+                            </div>
+
+                            
+                    </div>
+
+
+                </div> -->
+            </div>
+
+        </section>
+
+        <section class="section-features" id="quantopian">
+
+            <div class="row">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        Quantopian
+                    </h2>
+                </div>
+
+                <img src="/static/img/Quantopian/NASDAQvsQQQ.JPG" alt="" style="width: 800px;" class="center">
+                <div style="width: 800px; margin-left: 170px;">
+                    <p style="color: white; font-size: 20px; text-align:justify;">El gráfico muestra el comportamiento
+                        de los precios de ETF y NASDAQ en un periodo de 5 años previo a la normalización de los datos.
+                    </p>
+                </div>
+                <img src="/static/img/Quantopian/NASDAQvsQQQSpread.JPG" alt="" style="width: 800px;" class="center">
+                <div style="width: 800px; margin-left: 170px;">
+                    <p style="color: white; font-size: 20px; text-align:justify;">Esta gráfica es necesaria para poder
+                        decidir la compra/venta de acciones mediante el spread.</p>
+                </div>
+                <img src="/static/img/Quantopian/NASDAQvsQQQNormalizedSpread.JPG" alt="" style="width: 800px;"
+                    class="center">
+                <div style="width: 800px; margin-left: 170px;">
+                    <p style="color: white; font-size: 20px; text-align:justify;">La gráfica muestra los datos
+                        normalizados despues de haber aplicado el spread para una mejor toma de decisiones.</p>
+                </div>
+                <img src="/static/img/Quantopian/NASDAQvsQQQRolling.JPG" alt="" style="width: 800px;" class="center">
+                <div style="width: 800px; margin-left: 170px;">
+                    <p style="color: white; font-size: 20px; text-align:justify;">Este gráfico es el resultado del
+                        proceso de normalizacón de los datos despues de aplicar spread y considerando un moving average
+                        para poder tomar decisiones de compra/venta dentro de un rango definido.</p>
+                </div>
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        Trading Algorithm
+                    </h2>
+                </div>
+                <img src="/static/img/Quantopian/PTAOverview.JPG" alt="" style="width: 800px;" class="center">
+                <img src="/static/img/Quantopian/PipelineTradingAlgorithmNASDAQvsQQQ.JPG" alt="" style="width: 800px;"
+                    class="center">
+                <div style="width: 800px; margin-left: 170px;">
+                    <p style="color: white; font-size: 20px; text-align:justify;">En esta visualización se muestran
+                        los resultados del algoritmo en los cuales se pueden observar el retorno al comparar el indíce
+                        NASDAQ contra el ETF y QQQ en un periodo y monto de inversión determinado. Con los resultados se
+                        confirma la correlación que hay, llegando a ser de un 99%.</p>
+                </div>
+
+
+                <!-- <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-map"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
+                        <p class="feature-box__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-heart"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
+                        <p class="feature-box__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <section class="section-tours" id="ml">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    ML Algorithm
+                </h2>
+            </div>
+
+            <div class="row">
+                <img src="/static/img/MovingAverage.png" alt="" style="width: 800px;" class="center">
+                <div style="width: 800px; margin-left: 170px;">
+                    <p style="color: #223843; font-size: 20px; text-align:justify;">
+                        El objetivo de la gráfica es determinar la tendencia de los precios de las acciones para la
+                        muestra seleccionada, reduciendo el ruido de los datos.
+                    </p>
+                </div>
+                <img src="/static/img/InvestmentReturnCompany.png" alt="" style="width: 800px;" class="center">
+                <div style="width: 800px; margin-left: 170px;">
+                    <p style="color: #223843; font-size: 20px; text-align:justify;">Se muestra la probabilidad de
+                        obtener utilidad o perdida con la inversión, este caso aplica para la empresa mostrada en la
+                        gráfica anterior.</p>
+                </div>
+                <img src="/static/img/InvestmentReturnCompanies.png" alt="" style="width: 800px;" class="center">
+                <div style="width: 800px; margin-left: 170px;">
+                    <p style="color:#223843; font-size: 20px; text-align:justify;">El gráfico muestra la correlación del
+                        retorno de 2 empresas en el mismo sector.</p>
+                </div>
+                <img src="/static/img/CorrelationKDECompanies.png" alt="" style="width: 800px;" class="center">
+                <div style="width: 800px; margin-left: 170px;">
+                    <p style="color: #223843; font-size: 20px; text-align:justify;">Muestra la distribución y la
+                        tendencia de la población de datos mediante el KDE de empresas correspondientes al sector
+                        seleccionado.</p>
+                </div>
+                <img src="/static/img/CorrelationCompanies.png" alt="" style="width: 800px;" class="center">
+                <div style="width: 800px; margin-left: 170px;">
+                    <p style="color: #223843; font-size: 20px; text-align:justify;">Al igual que en la gráfica anterior,
+                        se muestra la correlación positiva
+                        que hay entre las empresas seleccionadas.</p>
+                </div>
+                <img src="/static/img/DecisionMatrix.png" alt="" style="width: 800px;" class="center">
+                <div style="width: 800px; margin-left: 170px;">
+                    <p style="color: #223843; font-size: 20px; text-align:justify;">Con este gráfico se busca encontrar
+                        la empresa con menor riesgo de inversión que maximice los retornos esperados. </p>
+                </div>
+                <img src="/static/img/PriceForecasting.png" alt="" style="width: 800px;" class="center">
+                <div style="width: 800px; margin-left: 170px;">
+                    <p style="color: #223843; font-size: 20px; text-align:justify;">En esta gráfica se muestra una
+                        predicción de los precios utilizando el modelo de regresión lineal que es el modelo que tiene mayor
+                        accurancy. Se considero un train test split de 70%-30%.</p>
+                </div>
+
+
+            </div>
+
+            <!-- <div class="u-center-text u-margin-top-huge">
+                <a href="#" class="btn btn--green">Discover all tours</a>
+            </div> -->
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo-box">
+
+            <picture class="footer__logo">
+                <img src="/static/img/mercado.svg" alt="logo" style="width: 200px;">
+                <!-- <source srcset="/static/img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
+                    media="(max-width: 37.5em)">
+                <img srcset="/static/img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo"
+                    src="/static/img/logo-green-2x.png"> -->
+            </picture>
+
+
+
+        </div>
+        <div class="row">
+            <h2>Repository</h2>
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Copyright &copy; | Data Analytics Bootcamp 2020
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="/static/img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                <img src="/static/img/nat-9.jpg" alt="Tour photo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before
+                    booking</h3>
+                <p class="popup__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                    Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit
+                    amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim enim
+                    sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget
+                    gravida cum sociis natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque
+                    laoreet.
+                    Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis.
+                    Faucibus
+                    vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa
+                    vitae tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed
+                    euismod nisi porta.
+                </p>
+                <a href="#" class="btn btn--green">Book now</a>
+            </div>
+        </div>
+    </div>
+
+    <!--
+        <section class="grid-test">
+            <div class="row">
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-2-of-3">
+                    Col 2 of 3
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-2-of-4">
+                    Col 2 of 4
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-3-of-4">
+                    Col 3 of 4
+                </div>
+            </div>
+        </section>
+        -->
+    <script src="/static/js/logic.js"></script>
+</body>
+
+</html>

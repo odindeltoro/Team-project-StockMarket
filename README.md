@@ -27,6 +27,7 @@
 [IEX](https://iexcloud.io/?gclid=Cj0KCQjw7sz6BRDYARIsAPHzrNLtRqK0vB8I_eTsoPRUBp8tH5ZjMdPxsWyTjNqgkZw813rQ0ZpjnGUaAjLPEALw_wcB)
 
 Summary statistics and data visualizations created using Python (Pandas, Matplotlib, Seaborn, NumPy, Flask, SQLAlchemy, Scikit-learn), Tableau and Javascript (chart.js).
+
 Stored data in databases (PostgreSQL), build website (HTML/CSS, SASS, Node.js) and hosting (Heroku).
 
 ![Dashboard1](static/img/Dashboard1.JPG)

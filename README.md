@@ -15,7 +15,7 @@
 * Data segmented by 9 sectors, 39 industries and 100 companies.
 
 ***Dashboards:***  
-* The dashboards are stored in the following link
+* The dashboards are stored in the following links
 [Stock Market](https://public.tableau.com/profile/odin.efren.del.toro.reyna#!/vizhome/StockMarketNASDAQ/DashboardPriceTrack)
 [Financials](https://public.tableau.com/profile/odin.efren.del.toro.reyna#!/vizhome/NASDAQFinancialsFiscalDate2019-2020/DashboardFinancials)
 

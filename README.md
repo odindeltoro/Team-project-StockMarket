@@ -2,7 +2,7 @@
 
 **Project Description:** Data Science analysis of the NASDAQ Index 100 regarding price variations, stock volume and financial data from companies.
 
-**Web page:** In the following link [Page](https://odindeltoro.github.io/Team-project-USA-police-and-crime/USADataGov/Web%20design/templates/index.html)
+**Web page:** In the following link [Page](https://coding-stockmarket-2020.herokuapp.com/)
 
 ***Team:*** Abraham Calderon, Bernardo Jardon, Martin Jaramillo and Odin Del Toro.
 
@@ -22,7 +22,7 @@
 [IEX](https://iexcloud.io/?gclid=Cj0KCQjw7sz6BRDYARIsAPHzrNLtRqK0vB8I_eTsoPRUBp8tH5ZjMdPxsWyTjNqgkZw813rQ0ZpjnGUaAjLPEALw_wcB)
 
 Summary statistics and data visualizations created using Python (Pandas, Matplotlib, Seaborn, NumPy, Flask, SQLAlchemy, Scikit-learn), Tableau and Javascript (chart.js).
-Stored data in databases (PostgreSQL) and build website (HTML/CSS, SASS, Node.js).
+Stored data in databases (PostgreSQL), build website (HTML/CSS, SASS, Node.js) and hosting (Heroku).
 
 ![Dashboard1](static/img/Dashboard1.JPG)
 ![Dashboard2](static/img/Dashboard2.JPG)

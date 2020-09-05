@@ -2047,19 +2047,19 @@ only screen and (min-width: 125em) {
     transform        : rotate(-135deg)
 }
 
-.section-about {
+.section-Tableau {
     background-color: #f7f7f7;
     padding         : 25rem 0;
     margin-top      : -20vh
 }
 
 @media only screen and (max-width: 56.25em) {
-    .section-about {
+    .section-Tableau {
         padding: 20rem 0
     }
 }
 
-.section-features {
+.section-Quantopian {
     padding          : 20rem 0;
     background-image : -webkit-gradient(linear, left top, right bottom, from(rgba(209, 245, 255, 0.8)), to(rgba(98, 121, 184, 0.8))), url(../img/stock2.jpg);
     background-image : linear-gradient(to right bottom, rgba(209, 245, 255, 0.8), rgba(98, 121, 184, 0.8)), url(../img/stock2.jpg);
@@ -2069,25 +2069,25 @@ only screen and (min-width: 125em) {
     margin-top       : -10rem
 }
 
-.section-features>* {
+.section-Quantopian>* {
     -webkit-transform: skewY(7deg);
     transform        : skewY(7deg)
 }
 
 @media only screen and (max-width: 56.25em) {
-    .section-features {
+    .section-Quantopian {
         padding: 10rem 0
     }
 }
 
-.section-tours {
+.section-ML {
     background-color: #f7f7f7;
     padding         : 25rem 0 15rem 0;
     margin-top      : -10rem
 }
 
 @media only screen and (max-width: 56.25em) {
-    .section-tours {
+    .section-ML {
         padding: 20rem 0 10rem 0
     }
 }
@@ -2109,19 +2109,19 @@ only screen and (min-width: 125em) {
     }
 }
 
-.section-book {
+.section-sectors {
     padding         : 15rem 0;
     background-image: -webkit-gradient(linear, left top, right bottom, from(#D1F5FF), to(#EEF8FF));
     background-image: linear-gradient(to right bottom, #D1F5FF, #EEF8FF)
 }
 
 @media only screen and (max-width: 56.25em) {
-    .section-book {
+    .section-sectors {
         padding: 10rem 0
     }
 }
 
-.book {
+.sectors {
     background-image  : linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
     background-size   : 100%;
     border-radius     : 3px;

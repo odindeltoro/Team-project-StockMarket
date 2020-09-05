@@ -14,6 +14,11 @@
 * Acummulated data 5 years.
 * Data segmented by 9 sectors, 39 industries and 100 companies.
 
+***Dashboards:***  
+* The dashboards are stored in the following link
+[Stock Market](https://public.tableau.com/profile/odin.efren.del.toro.reyna#!/vizhome/StockMarketNASDAQ/DashboardPriceTrack)
+[Financials](https://public.tableau.com/profile/odin.efren.del.toro.reyna#!/vizhome/NASDAQFinancialsFiscalDate2019-2020/DashboardFinancials)
+
 ***Quantopian:*** The data used is exclusive from the platform in the following link
 [Quantopian](https://www.quantopian.com/)
 

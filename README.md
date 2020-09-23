@@ -6,7 +6,7 @@
 
 ***Team:*** Abraham Calderon, Bernardo Jardon, Martin Jaramillo and Odin Del Toro.
 
-**Objectives:** Advice final users of it is a good decision to invest using ETF or Index. Benchmark of the NASDAQ Index and ETF QQQ reviewing the correlation between them and create a trade pair algorithm with Quantopian libraries that replicate the Index considering a leverage of one unit. Create dashboards and Machine Learning models that advice the final user in the investment strategy by comparing companies. The investment strategy considers balance sheet, financial data, risk evaluation and expected returns of the NASDAQ Index and prediction with forecasting techniques of price variation for chosen stocks.
+**Objectives:** Advice final users of a good decision to invest using ETF or Index. Benchmark of the NASDAQ Index and ETF QQQ reviewing the correlation between them and create a trade pair algorithm with Quantopian libraries that replicate the Index considering a leverage of one unit. Create dashboards and Machine Learning models that advice the final user in the investment strategy by comparing companies. The investment strategy considers balance sheet, financial data, risk evaluation and expected returns of the NASDAQ Index and prediction with forecasting techniques of price variation for chosen stocks.
 
 ***Dataset:*** The data is extracted from IEX Cloud and Quantopian open sources
 
